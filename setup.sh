@@ -44,8 +44,8 @@ echo
 echo "--- Configuration: general server settings ---"
 echo
 
-read -p "Timezone (default: Europe/London): " TZONE
-TZONE=${TZONE:-'Europe/London'}
+read -p "Timezone (default: America/New_York): " TZONE
+TZONE=${TZONE:-'America/New_York'}
 
 read -p "Email address for sysadmin (e.g. j.bloggs@example.com): " EMAILADDR
 
